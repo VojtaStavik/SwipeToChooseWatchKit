@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder.WatchKit.Storyboard" version="3.0" toolsVersion="7703" systemVersion="14D136" targetRuntime="watchKit" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="cGp-aI-ech">
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="6711"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBWatchKitPlugin" version="3737"/>
+    </dependencies>
+    <scenes>
+        <!--YES-->
+        <scene sceneID="to9-NO-mI4">
+            <objects>
+                <controller identifier="YES" id="PpH-Pi-0CW" customClass="YESIC" customModule="SwipeToChooseWatchKit_WatchKit_Extension">
+                    <items>
+                        <button width="1" height="1" alignment="left" title="YES" id="z79-eV-A69">
+                            <color key="backgroundColor" red="0.49019607840000001" green="0.69803921570000005" blue="0.2666666667" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                            <fontDescription key="font" type="system" weight="black" pointSize="20"/>
+                        </button>
+                    </items>
+                    <connections>
+                        <outlet property="button" destination="z79-eV-A69" id="as0-DP-fXg"/>
+                    </connections>
+                </controller>
+            </objects>
+            <point key="canvasLocation" x="463" y="632"/>
+        </scene>
+        <!--Middle-->
+        <scene sceneID="aou-V4-d1y">
+            <objects>
+                <controller identifier="Middle" backgroundImage="loading" contentMode="center" animationDuration="1" id="AgC-eL-Hgc" customClass="InterfaceController" customModule="SwipeToChooseWatchKit_WatchKit_Extension">
+                    <items>
+                        <imageView width="1" height="0.80000000000000004" alignment="left" contentMode="scaleAspectFill" id="nif-w2-lix"/>
+                        <label width="1" height="0.20000000000000001" alignment="left" verticalAlignment="bottom" text="Name" textAlignment="center" id="Qac-S5-59Q"/>
+                    </items>
+                    <connections>
+                        <outlet property="imageInterface" destination="nif-w2-lix" id="c50-Kq-g32"/>
+                        <outlet property="labelInterface" destination="Qac-S5-59Q" id="zh0-tB-aNb"/>
+                    </connections>
+                </controller>
+            </objects>
+            <point key="canvasLocation" x="710" y="628"/>
+        </scene>
+        <!--Intro-->
+        <scene sceneID="h2X-Dw-qMK">
+            <objects>
+                <controller identifier="Intro" backgroundImage="loading" contentMode="center" animationDuration="1" id="cGp-aI-ech" customClass="IntroIC" customModule="SwipeToChooseWatchKit_WatchKit_Extension"/>
+            </objects>
+            <point key="canvasLocation" x="710" y="351"/>
+        </scene>
+        <!--NO-->
+        <scene sceneID="9zR-Ap-sU8">
+            <objects>
+                <controller identifier="NO" id="dQE-Dd-MwW" customClass="NOIC" customModule="SwipeToChooseWatchKit_WatchKit_Extension">
+                    <items>
+                        <button width="1" height="1" alignment="left" title="NO" id="o1Z-82-IQD">
+                            <color key="backgroundColor" red="0.87450980389999999" green="0.0" blue="0.048591418140000002" alpha="1" colorSpace="calibratedRGB"/>
+                            <fontDescription key="font" type="system" weight="black" pointSize="20"/>
+                        </button>
+                    </items>
+                </controller>
+            </objects>
+            <point key="canvasLocation" x="944" y="628"/>
+        </scene>
+    </scenes>
+</document>
