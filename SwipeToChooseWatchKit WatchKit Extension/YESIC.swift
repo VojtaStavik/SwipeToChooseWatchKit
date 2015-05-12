@@ -15,7 +15,7 @@ class YESIC: WKInterfaceController {
     override func awakeWithContext(context: AnyObject?) {
         super.awakeWithContext(context)
         
-        // We want to hide YES button when the controller is loaded
+        // We want to hide YES button when the controller is loaded for the first time
         button.setAlpha(0)
         NSNotificationCenter.defaultCenter().postNotificationName(ShowMiddleControllerNotificationName, object: nil)
     }

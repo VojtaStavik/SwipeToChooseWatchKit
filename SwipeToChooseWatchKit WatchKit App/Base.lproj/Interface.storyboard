@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<document type="com.apple.InterfaceBuilder.WatchKit.Storyboard" version="3.0" toolsVersion="7703" systemVersion="14D136" targetRuntime="watchKit" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="cGp-aI-ech">
+<document type="com.apple.InterfaceBuilder.WatchKit.Storyboard" version="3.0" toolsVersion="7703" systemVersion="14D136" targetRuntime="watchKit" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="PpH-Pi-0CW">
     <dependencies>
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="6711"/>
         <plugIn identifier="com.apple.InterfaceBuilder.IBWatchKitPlugin" version="3737"/>
@@ -17,10 +17,11 @@
                     </items>
                     <connections>
                         <outlet property="button" destination="z79-eV-A69" id="as0-DP-fXg"/>
+                        <segue destination="AgC-eL-Hgc" kind="relationship" relationship="nextPage" id="u6l-Zw-Ljw"/>
                     </connections>
                 </controller>
             </objects>
-            <point key="canvasLocation" x="463" y="632"/>
+            <point key="canvasLocation" x="502" y="628"/>
         </scene>
         <!--Middle-->
         <scene sceneID="aou-V4-d1y">
@@ -33,17 +34,11 @@
                     <connections>
                         <outlet property="imageInterface" destination="nif-w2-lix" id="c50-Kq-g32"/>
                         <outlet property="labelInterface" destination="Qac-S5-59Q" id="zh0-tB-aNb"/>
+                        <segue destination="dQE-Dd-MwW" kind="relationship" relationship="nextPage" id="Adp-Ft-inz"/>
                     </connections>
                 </controller>
             </objects>
             <point key="canvasLocation" x="710" y="628"/>
-        </scene>
-        <!--Intro-->
-        <scene sceneID="h2X-Dw-qMK">
-            <objects>
-                <controller identifier="Intro" backgroundImage="loading" contentMode="center" animationDuration="1" id="cGp-aI-ech" customClass="IntroIC" customModule="SwipeToChooseWatchKit_WatchKit_Extension"/>
-            </objects>
-            <point key="canvasLocation" x="710" y="351"/>
         </scene>
         <!--NO-->
         <scene sceneID="9zR-Ap-sU8">
@@ -57,7 +52,7 @@
                     </items>
                 </controller>
             </objects>
-            <point key="canvasLocation" x="944" y="628"/>
+            <point key="canvasLocation" x="930" y="628"/>
         </scene>
     </scenes>
 </document>

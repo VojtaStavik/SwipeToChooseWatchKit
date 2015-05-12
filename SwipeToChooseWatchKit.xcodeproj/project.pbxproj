@@ -23,7 +23,6 @@
 		A5DC205D1B021B1000F4662C /* YESIC.swift in Sources */ = {isa = PBXBuildFile; fileRef = A5DC205B1B021B1000F4662C /* YESIC.swift */; };
 		A5DC20601B021B1A00F4662C /* NOIC.swift in Sources */ = {isa = PBXBuildFile; fileRef = A5DC205E1B021B1A00F4662C /* NOIC.swift */; };
 		A5DC20611B021D0400F4662C /* Interface.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A5DC20471B02164D00F4662C /* Interface.storyboard */; };
-		A5DC20631B021E1500F4662C /* IntroIC.swift in Sources */ = {isa = PBXBuildFile; fileRef = A5DC20621B021E1500F4662C /* IntroIC.swift */; };
 		A5DC20641B02213500F4662C /* Interface.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A5DC20471B02164D00F4662C /* Interface.storyboard */; };
 /* End PBXBuildFile section */
 
@@ -86,7 +85,6 @@
 		A5DC20561B02167200F4662C /* GameManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GameManager.swift; sourceTree = "<group>"; };
 		A5DC205B1B021B1000F4662C /* YESIC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = YESIC.swift; sourceTree = "<group>"; };
 		A5DC205E1B021B1A00F4662C /* NOIC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NOIC.swift; sourceTree = "<group>"; };
-		A5DC20621B021E1500F4662C /* IntroIC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = IntroIC.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -178,7 +176,6 @@
 		A5DC20371B02164D00F4662C /* SwipeToChooseWatchKit WatchKit Extension */ = {
 			isa = PBXGroup;
 			children = (
-				A5DC20621B021E1500F4662C /* IntroIC.swift */,
 				A5DC203A1B02164D00F4662C /* InterfaceController.swift */,
 				A5DC205B1B021B1000F4662C /* YESIC.swift */,
 				A5DC205E1B021B1A00F4662C /* NOIC.swift */,
@@ -395,7 +392,6 @@
 			files = (
 				A5DC205D1B021B1000F4662C /* YESIC.swift in Sources */,
 				A5DC203B1B02164D00F4662C /* InterfaceController.swift in Sources */,
-				A5DC20631B021E1500F4662C /* IntroIC.swift in Sources */,
 				A5DC20601B021B1A00F4662C /* NOIC.swift in Sources */,
 				A5DC20581B02167200F4662C /* GameManager.swift in Sources */,
 			);
