@@ -17,7 +17,6 @@ class YESIC: WKInterfaceController {
         
         // We want to hide YES button when the controller is loaded for the first time
         button.setAlpha(0)
-        NSNotificationCenter.defaultCenter().postNotificationName(ShowMiddleControllerNotificationName, object: nil)
     }
 
     @IBOutlet weak var button: WKInterfaceButton!
